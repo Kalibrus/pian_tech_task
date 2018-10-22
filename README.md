@@ -1,4 +1,16 @@
 # pian_tech_task
 
-npm run start - start project
-node server/server.js - start server
+for load modules
+```
+npm install
+```
+
+start server
+```
+node server/server.js
+```
+
+start project
+```
+npm run start
+```
