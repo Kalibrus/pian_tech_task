@@ -2,73 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9778cb5-820d-4089-8e38-5e1e0f6e2541" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/user_routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.module.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.routing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.routing.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.routing.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/appComponent/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/appComponent/app.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/appComponent/app.component.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/appComponent/app.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/appComponent/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/homeComponent/home.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/homeComponent/home.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/homeComponent/home.component.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/homeComponent/home.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/homeComponent/home.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/loginComponent/login.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/loginComponent/login.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/loginComponent/login.component.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/loginComponent/login.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/loginComponent/login.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/navComponent/nav.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/navComponent/nav.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/navComponent/nav.component.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/navComponent/nav.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/navComponent/nav.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/questionAnswersComponent/questionAnswers.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/questionAnswersComponent/questionAnswers.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/questionAnswersComponent/questionAnswers.component.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/questionAnswersComponent/questionAnswers.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/questionAnswersComponent/questionAnswers.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/registerComponent/register.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/registerComponent/register.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/registerComponent/register.component.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/registerComponent/register.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/registerComponent/register.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/searchResultComponent/searchResult.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/searchResultComponent/searchResult.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/searchResultComponent/searchResult.component.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/searchResultComponent/searchResult.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/searchResultComponent/searchResult.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/guards/auth.guard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/guards/auth.guard.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/guards/auth.guard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/auth.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/auth.service.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/auth.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/search.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/search.service.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/search.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/styles/colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/styles/default.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polyfills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polyfills.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -142,8 +76,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="17">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -424,12 +358,12 @@
       <workItem from="1540149447481" duration="7406000" />
       <workItem from="1540223659773" duration="1017000" />
       <workItem from="1540233535833" duration="7584000" />
-      <workItem from="1540245625976" duration="486000" />
+      <workItem from="1540245625976" duration="636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71246000" />
+    <option name="totallyTimeSpent" value="71396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -833,8 +767,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="17">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
