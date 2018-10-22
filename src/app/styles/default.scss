@@ -1,0 +1,23 @@
+@import "colors";
+
+@mixin default-btn {
+  display: inline-block;
+  height: 32px;
+  padding: 5px 10px;
+  background: $nav-btn-color;
+  border: 1px solid $nav-btn-border-color;
+  border-radius: 10%;
+  outline: none;
+
+  &:hover {
+    cursor: pointer;
+    background: #FFF;
+  }
+}
+
+@mixin default-input {
+  outline: none;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid $gray-color;
+}

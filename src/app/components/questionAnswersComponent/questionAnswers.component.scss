@@ -1,0 +1,18 @@
+@import "../../styles/colors";
+
+.answers-component {
+  padding: 10px 20px;
+  .answers-header {
+    margin-left: 25px;
+    font-size: 24px;
+  }
+
+  .answer:nth-child(2n) {
+    background: $gray-color;
+  }
+
+  .answer {
+    padding: 15px 20px;
+    border-bottom: 1px solid black;
+  }
+}

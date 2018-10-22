@@ -1,0 +1,23 @@
+@import "../../styles/colors";
+@import "../../styles/default";
+
+.home-component {
+  padding: 20px 10px;
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+
+  .home-content {
+    margin: auto;
+
+    input {
+      @include default-input;
+      width: 500px;
+    }
+
+    button {
+      margin-left: 10px;
+      @include default-btn;
+    }
+  }
+}

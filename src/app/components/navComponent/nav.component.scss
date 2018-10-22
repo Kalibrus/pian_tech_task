@@ -1,0 +1,23 @@
+@import "../../styles/colors";
+@import "../../styles/default";
+
+nav {
+  display: flex;
+  height: 60px;
+  width: 100vw;
+  background: $nav-bg-color;
+  border-bottom: 1px solid $nav-btn-border-color;
+
+  .nav-btn {
+    margin: auto 20px;
+    @include default-btn;
+  }
+
+  .active {
+    background: #FFF;
+  }
+
+  .nav-login-btn {
+    margin-left: auto;
+  }
+}

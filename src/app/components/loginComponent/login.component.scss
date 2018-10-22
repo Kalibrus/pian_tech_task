@@ -1,0 +1,32 @@
+@import "../../styles/colors";
+@import "../../styles/default";
+
+.login-container {
+  padding: 20px 10px;
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+
+  .login-content {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    .login-item {
+      input {
+        @include default-input;
+        width: 200px;
+      }
+    }
+
+    .login-btn {
+      @include default-btn;
+      margin: 10px auto;
+    }
+
+    .login-error {
+      margin: 5px auto;
+      color: $error-color;
+    }
+  }
+}

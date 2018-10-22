@@ -1,0 +1,19 @@
+<div class="login-container">
+    <div class="login-content">
+        <div *ngIf="!logged">
+            <div class="login-item">
+                <span>Login</span><br />
+                <input type="text" [(ngModel)]="login" (input)="onChange()"/>
+            </div>
+            <div class="login-item">
+                <span>Password</span><br />
+                <input type="password" [(ngModel)]="password" (input)="onChange()"/>
+            </div>
+            <button class="login-btn" (click)="onLogin()">Login</button>
+            <div class="login-error">{{error}}</div>
+        </div>
+        <div *ngIf="logged">
+            <button class="login-btn" (click)="onLogOut()">Sign Out</button>
+        </div>
+    </div>
+</div>

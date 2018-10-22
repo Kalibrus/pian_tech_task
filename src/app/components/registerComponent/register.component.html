@@ -1,0 +1,12 @@
+<div class="register-container">
+    <div class="register-content">
+        <div class="register-item" *ngFor="let field of fields; let i = index">
+            <span>{{field}}</span><br />
+            <input *ngIf="field === 'Password'" type="password" [(ngModel)]="imputs[i]" (input)="onChange()"/>
+            <input *ngIf="field !== 'Password'" type="text" [(ngModel)]="imputs[i]" (input)="onChange()"/>
+        </div>
+        <button class="register-btn" (click)="onSubmit()">Register</button>
+        <div *ngIf="error" class="register-error">{{error}}</div>
+        <div *ngIf="registred" class="register-ok">You are successfully registered</div>
+    </div>
+</div>

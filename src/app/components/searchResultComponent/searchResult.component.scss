@@ -1,0 +1,31 @@
+@import "../../styles/colors";
+@import "../../styles/default";
+
+.result-container {
+  padding: 10px 20px;
+
+  table {
+    td, th {
+      text-align: center;
+      padding: 5px 10px;
+      border: 2px solid $gray-color;
+    }
+
+    td, th, span {
+      &:focus {
+        outline: 2px solid $outline-color;
+      }
+    }
+  }
+
+  button {
+    margin: 10px;
+    @include default-btn;
+  }
+
+  .more-inf-header {
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,49 @@
+<div class="result-container">
+    <table *ngIf="items.length !== 0">
+        <tr>
+            <th tabindex="0" (click)="onSortByField('author')"
+                (keydown)="onSortByField('author')">Author</th>
+            <th tabindex="0" (click)="onSortByField('title')"
+                (keydown)="onSortByField('title')">Title</th>
+            <th tabindex="0" (click)="onSortByField('answer')"
+                (keydown)="onSortByField('answer')">Answers number</th>
+            <th>Tags</th>
+        </tr>
+        <tr *ngFor="let item of items">
+            <td tabindex="0"
+                (keydown)="onAuthorClick($event, item.owner.user_id, item.owner.display_name)"
+                (click)="onAuthorClick($event, item.owner.user_id, item.owner.display_name)"
+                [innerHTML]="item.owner.display_name"></td>
+            <td tabindex="0"
+                (keydown)="onTitleClick($event, item.question_id)"
+                (click)="onTitleClick($event, item.question_id)"
+                [innerHTML]="item.title"></td>
+            <td tabindex="0"
+                (keydown)="onTitleClick($event, item.question_id)"
+                (click)="onTitleClick($event, item.question_id)"
+                [innerHTML]="item.answer_count"></td>
+            <td>
+                <span tabindex="0"
+                      *ngFor="let tag of item.tags"
+                      (keydown)="onTagClick($event, tag)"
+                      (click)="onTagClick($event, tag)"
+                      [innerHTML]="tag + ' '"></span>
+            </td>
+        </tr>
+    </table>
+    <button *ngIf="items.length !== 0 && hasMore" (click)="onLoadMore()">Load More</button>
+    <div *ngIf="items.length !== 0" class="search-result-more-inf">
+        <span class="more-inf-header">{{clickedType}}</span>
+        <table *ngIf="popularOutItems.length !== 0">
+            <tr>
+                <th>Title</th>
+                <th>View Count</th>
+            </tr>
+            <tr *ngFor="let item of popularOutItems">
+                <td [innerHTML]="item.title"></td>
+                <td [innerHTML]="item.view_count"></td>
+            </tr>
+        </table>
+    </div>
+    <div *ngIf="items.length === 0">Nothing found</div>
+</div>

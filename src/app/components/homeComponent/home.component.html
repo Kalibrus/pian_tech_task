@@ -1,0 +1,7 @@
+<div class="home-component">
+    <div class="home-content">
+        <input type="text" [(ngModel)]="searchString" (input)="onChange()"/>
+        <button (click)="onSearch()">Search</button>
+        <div *ngIf="errorMessage !== ''" class="home-error">{{errorMessage}}</div>
+    </div>
+</div>
